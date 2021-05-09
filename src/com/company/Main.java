@@ -1,17 +1,18 @@
 package com.company;
-
+// Developer Name: Keyvan Derakhshan Nik
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
-        CeilingFan cf = new CeilingFan();
-        checkFan(cf);
-
+	    CeilingFan cf = new CeilingFan();
+        useFan(cf);
     }
-    public static void checkFan(FanI f){
+
+    public static void useFan(FanI f){
         f.speedUp();
-        f.showCondition();
+        f.speedUp();
+        f.speedUp();
+        f.speedUp();
         f.changeDirection();
-        f.showCondition();
+        f.changeDirection();
     }
 }
